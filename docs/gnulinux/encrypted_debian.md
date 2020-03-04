@@ -222,6 +222,13 @@ generate grub.cfg using following command:
 [Refer to this guide](grub_hardening.md) for further guidance on
 hardening your GRUB configuration, for security purposes.
 
+LUKSv2 incompatibility
+======================
+
+When using libreboot version 20160907 and older it may be necessary to
+downgrade LUKSv2 to LUKSv1. See
+[https://cryptsetup-team.pages.debian.net/cryptsetup/encrypted-boot.html#downgrading-luks2-to-luks1](debian's cryptsetup-team page to learn how to downgrade).
+
 Troubleshooting
 ===============
 
