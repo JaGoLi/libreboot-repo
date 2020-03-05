@@ -260,9 +260,7 @@ address to one that is correct for your system.*
 
 Now flash it:
 
-    # ./flashrom -p linux_spi:dev=/dev/spidev1.0,spispeed=512 -w
-
-path/to/libreboot/rom/image.rom -V
+    # ./flashrom -p linux_spi:dev=/dev/spidev1.0,spispeed=512 -w path/to/libreboot/rom/image.rom -V
 
 ![](images/x200/disassembly/0015.jpg)
 
