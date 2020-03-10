@@ -5,7 +5,7 @@ x-toc-enable: true
 
 This sections relates to known hardware compatibility in libreboot.
 
-For installatation instructions, refer to [../install/](../install/).
+For installation instructions, refer to [../install/](../install/).
 
 List of supported hardware
 --------------------------
@@ -66,7 +66,7 @@ NOTE: this can only be done when you are using Lenovo BIOS. How to
 update the EC firmware while running libreboot is unknown. Libreboot
 only replaces the BIOS firmware, not EC.
 
-Updated EC firmware has several advantages e.g. bettery battery
+Updated EC firmware has several advantages e.g. better battery
 handling.
 
 How to find what EC version you have (i945/GM45)
