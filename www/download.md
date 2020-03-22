@@ -51,6 +51,8 @@ university, USA)
 <https://mirror.sugol.org/libreboot/> (sugol.org)
 (formerly nephelai.zanity.net/mirror/libreboot)
 
+<https://mirrors.qorg11.net/libreboot/> (qorg11.net, Spain)
+
 <https://elgrande74.net/libreboot/> (elgrande74.net, France)
 
 <https://mirror.koddos.net/libreboot/> (koddos.net, Netherlands)
@@ -79,6 +81,8 @@ libreboot.org.
 UK)
 
 <rsync://mirror.math.princeton.edu/pub/libreboot/> (Princeton university, USA)
+
+<rsync://qorg11.net/mirrors/libreboot/> (qorg11.net, Spain)
 
 <rsync://ftp.linux.ro/libreboot/> (linux.ro, Romania)
 
