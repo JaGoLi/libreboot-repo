@@ -231,7 +231,7 @@ To make **swapvol** into a swap partition, we run the `mkswap` (i.e., make swap)
 Activate the **swapvol**, allowing it to now be used as swap,
 using `swapon` (i.e., turn swap on) command:
 
-    # swapon /dev/matrix/swapvol
+    # swapon /dev/matrix/matrix-swapvol
 
 Now I have to format **rootvol**, to make it ready for installation;
 I do this with the `mkfs` (i.e., make file system) command.
