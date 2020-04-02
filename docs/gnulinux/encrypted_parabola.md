@@ -30,7 +30,7 @@ You can find the minimum requirements to run Parabola GNU+Linux
 ### Download the latest ISO
 For this guide, I used the *2016.11.03* ISO; the most current image is
 available on Parabola's
-[downloads page](https://wiki.parabola.nu/Get_Parabola#Main_live_ISO).
+[downloads page](https://wiki.parabola.nu/Get_Parabola#Release_images_for_x86_64_and_i686_architectures).
 
 If you are a complete beginner with GNU+Linux, choose the *Mate Desktop ISO*.
 it is easier to install Parabola with this version, because it allows you
