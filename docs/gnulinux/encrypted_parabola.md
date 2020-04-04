@@ -226,19 +226,19 @@ into an active swap partition, and formatting **rootvol**.
 
 To make **swapvol** into a swap partition, we run the `mkswap` (i.e., make swap) command:
 
-    # mkswap /dev/mapper/matrix-swapvol
+    # mkswap /dev/matrix/swapvol
 
 Activate the **swapvol**, allowing it to now be used as swap,
 using `swapon` (i.e., turn swap on) command:
 
-    # swapon /dev/matrix/matrix-swapvol
+    # swapon /dev/matrix/swapvol
 
 Now I have to format **rootvol**, to make it ready for installation;
 I do this with the `mkfs` (i.e., make file system) command.
 I choose the **ext4** filesystem, but you could use a different one,
 depending on your use case:
 
-    # mkfs.ext4 /dev/mapper/matrix-rootvol
+    # mkfs.ext4 /dev/matrix/rootvol
 
 Lastly, I need to mount **rootvol**. Fortunately, GNU+Linux has a directory
 for this very purpose: **/mnt**:
