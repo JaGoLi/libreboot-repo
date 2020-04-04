@@ -30,7 +30,7 @@ You can find the minimum requirements to run Parabola GNU+Linux
 ### Download the latest ISO
 For this guide, I used the *2016.11.03* ISO; the most current image is
 available on Parabola's
-[downloads page](https://wiki.parabola.nu/Get_Parabola#Main_live_ISO).
+[downloads page](https://wiki.parabola.nu/Get_Parabola#Release_images_for_x86_64_and_i686_architectures).
 
 If you are a complete beginner with GNU+Linux, choose the *Mate Desktop ISO*.
 it is easier to install Parabola with this version, because it allows you
@@ -226,7 +226,7 @@ into an active swap partition, and formatting **rootvol**.
 
 To make **swapvol** into a swap partition, we run the `mkswap` (i.e., make swap) command:
 
-    # mkswap /dev/mapper/matrix-swapvol
+    # mkswap /dev/matrix/swapvol
 
 Activate the **swapvol**, allowing it to now be used as swap,
 using `swapon` (i.e., turn swap on) command:
@@ -238,7 +238,7 @@ I do this with the `mkfs` (i.e., make file system) command.
 I choose the **ext4** filesystem, but you could use a different one,
 depending on your use case:
 
-    # mkfs.ext4 /dev/mapper/matrix-rootvol
+    # mkfs.ext4 /dev/matrix/rootvol
 
 Lastly, I need to mount **rootvol**. Fortunately, GNU+Linux has a directory
 for this very purpose: **/mnt**:
