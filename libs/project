@@ -695,11 +695,12 @@ project_sources_patch() {
 	local sources_path=$1
 	local patch_path=$2
 
-	if diff_patch_check "$sources_path" "$patch_path"; then
-		diff_patch "$sources_path" "$patch_path"
-	else
+	if ! diff_patch_check "$sources_path" "$patch_path"; then
+		printf '%s\n' "Patching failed with: ${patch_path##*$root/$PROJECTS/}"
 		return 1
 	fi
+
+	diff_patch "$sources_path" "$patch_path"
 }
 
 project_blobs_path() {

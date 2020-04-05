@@ -235,7 +235,10 @@ git_patch() {
 	local branch=$2
 	local patch=$3
 
-	git_apply_check "$repository_path" "$branch" "$patch" || return 1
+	if ! git_apply_check "$repository_path" "$branch" "$patch"; then
+		printf '%s\n' "Patching failed with: ${patch##*$root/$PROJECTS/}"
+		return 1
+	fi
 
 	case $patch in
 		*.patch)
