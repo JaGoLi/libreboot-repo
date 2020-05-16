@@ -148,12 +148,13 @@ is useful for reverse engineering work, if there is a desirable
 behaviour in the original firmware that could be replicated in coreboot
 and libreboot.
 
-Follow the instructions at
-[../hardware/gm45\_remove\_me.html\#ich9gen](../hardware/gm45_remove_me.html#ich9gen)
-to change the MAC address inside the libreboot ROM image, before
-flashing it. Although there is a default MAC address inside the ROM
-image, this is not what you want. Make sure to always change the MAC
-address to one that is correct for your system.
+While there is a default MAC address inside the gbe region of flash image,
+it is not one you want to use. Make sure to change the MAC address to the one
+that is correct for your system, for **later internal flash**,
+but always remember to **flash unmodfied txtmode image first** as it is known
+to work and only this variant provides memtest. You can follow instructions
+at [../hardware/gm45\_remove\_me.html\#ich9gen](../hardware/gm45_remove_me.html#ich9gen)
+to change the MAC address inside the libreboot image.
 
 Now flash it:
 
