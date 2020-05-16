@@ -47,9 +47,6 @@ for these systems, and that the systems have been tested (confirmed
 working). There may be exceptions; in other words, this is a list of
 'officially' supported systems.
 
-It is also possible to build ROM images (from source) for other systems
-(and virtual systems, e.g. QEMU).
-
 EC update on i945 (X60, T60) and GM45 (X200, T400, T500, R400, W500)
 ==============================================================
 
