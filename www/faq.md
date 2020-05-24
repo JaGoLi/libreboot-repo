@@ -1135,6 +1135,7 @@ We do not have a single device that would be "100% free",
 and such absolutes are nearly impossible to reach.
 
 Notable proprietary blobs (not a complete list):
+
 * All devices
 	* SATA/PATA Hard Drive/Optical Disc Drive Firmware
   ([often contain powerful ARM based computer](
@@ -1147,6 +1148,10 @@ Notable proprietary blobs (not a complete list):
 	* Penabled devices contain µPD78F0514 MCU on wacom subboard,
   and Atmega (AVR) on led indicator/button board
 	* Battery BMS, bq8030 (CoolRISC C816)
+* Chomebooks C201PA/C100PA:
+	* Battery BMS, bq30z55
+	* Elan Touchpad
+	* eMMC [flash memory controller](https://en.wikipedia.org/wiki/Flash_memory_controller) firmware
 
 Where can I learn more about electronics
 ==========================================
