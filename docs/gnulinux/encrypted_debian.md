@@ -227,7 +227,7 @@ LUKSv2 incompatibility
 
 When using libreboot version 20160907 and older it may be necessary to
 downgrade LUKSv2 to LUKSv1. See
-[https://cryptsetup-team.pages.debian.net/cryptsetup/encrypted-boot.html#downgrading-luks2-to-luks1](debian's cryptsetup-team page to learn how to downgrade).
+[debian's cryptsetup-team page to learn how to downgrade](https://cryptsetup-team.pages.debian.net/cryptsetup/encrypted-boot.html#downgrading-luks2-to-luks1).
 
 Troubleshooting
 ===============
