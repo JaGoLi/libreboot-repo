@@ -7,8 +7,8 @@ available). It can also be used for building a high-powered workstation.
 Powered by libreboot. The coreboot port was done by Timothy Pearson of
 Raptor Engineering Inc. and, working with them, merged into libreboot.
 
-*Memory initialization is still problematic, for some modules. We
-recommend avoiding Kingston modules.*
+Note that not all boards are compatible. See [board status](#boardstatus)
+below to determine compatibility with your board.
 
 Flashing instructions can be found at
 [../install/\#flashrom](../install/#flashrom) - note that external
@@ -20,21 +20,35 @@ without using external hardware.
 CPU compatibility
 =================
 
-*Use Opteron 4200 series (works without microcode updates, including hw
-virt).* 4300 series needs microcode updates, so avoid those CPUs. 4100
-series is too old, and mostly untested.
+- Opteron 4100 series: Incompatible
+- Opteron 4200 series: Compatible, does not require microcode updates
+- Opteron 4300 series: Compatible, requires microcode updates (nonfree!)
 
 Board status (compatibility) {#boardstatus}
 ============================
 
-See <https://raptorengineeringinc.com/coreboot/kcma-d8-status.php>.
+There are two ways to identify a supported KCMA-D8 board:
+
+1. Serial number (sticker attached to the 24-pin ATX power connector)
+2. BIOS version (sticker next to CPU slot 1, last four digits)
+
+Supported boards begin with a serial number of **B9S2xxxxxxxx** or above where
+the first character refers to the year of manufacture (A = 2010, B = 2011, etc.)
+and the following character the month in hexadecimal (1...9, A, B, C). Thus, any
+board produced September 2011 *or later* are compatible with Libreboot. Boards
+originally shipped with BIOS version **2001** or higher are also compatible.
+
+For help locating these identifying markers, see [ASUS documentation for determining Opteron 4200 series compatibility](https://web.archive.org/web/20200710022605/https://dlcdnets.asus.com/pub/ASUS/mb/SocketC%281027%29/KCMA-D8/Manual&QVL/How_to_identify_MB_supporting_Opteron_4200_CPU.pdf)
+
+For more detailed information regarding the coreboot port, see
+<https://raptorengineeringinc.com/coreboot/kcma-d8-status.php>
 
 Form factor {#formfactor}
 ===========
 
 This board is ATX form factor. While the [ATX standard, version 2.2](https://web.archive.org/web/20120725150314/http://www.formfactors.org/developer/specs/atx2_2.pdf)
 specifies board dimensions 305mm x 244mm, this board measures 305mm x 253mm;
-ensure your case supports this extra ~centimeter in width.
+ensure your case supports this extra ~cm in width.
 
 IPMI iKVM module add-on {#ipmi}
 =======================
@@ -71,7 +85,10 @@ framebuffer display (if it has KMS - kernel mode setting).
 Current issues {#issues}
 ==============
 
+-   Opteron 4100 series CPUs are currently incompatible
 -   LRDIMM memory modules are currently incompatible
+-   Memory initialization is still problematic for some modules. We
+    recommend avoiding Kingston modules.
 -   SAS (via PIKE 2008 module) requires non-free option ROM (and
     SeaBIOS) to boot from it (theoretically possible to replace, but you
     can put a kernel in CBFS or on SATA and use that to boot GNU, which
