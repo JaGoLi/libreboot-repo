@@ -89,10 +89,11 @@ Current issues {#issues}
 -   LRDIMM memory modules are currently incompatible
 -   Memory initialization is still problematic for some modules. We
     recommend avoiding Kingston and Super Talent modules for this reason.
--   Booting from USB mass storage devices is not possible. In order to install
-    an operating system you will need a hard disk with a pre-installed OS,
-    otherwise you have to plug in another hard disk or a CD/DVD reader in
-    order to boot OS installation media.
+-   Booting from USB mass storage devices is currently broken under GRUB.
+    Consequently, the textmode ROM with SeaBIOS is recommended otherwise
+    in order to install an operating system you will need a hard disk with
+    a pre-installed OS or will have to plug in another HDD or CD/DVD
+    reader in order to boot OS installation media.
 -   SAS (via PIKE 2008 module) requires non-free option ROM (and
     SeaBIOS) to boot from it (theoretically possible to replace, but you
     can put a kernel in CBFS or on SATA and use that to boot GNU, which
