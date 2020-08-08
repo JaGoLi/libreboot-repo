@@ -262,53 +262,6 @@ Then, add the new one to the ROM:
 
     $ ./cbfstool libreboot.rom add -n grubtest.cfg -f grubtest.cfg -t raw
 
-#### Change MAC address in ROM {#changeMAC}
-The last step before flashing the new ROM, is to change the MAC address inside it.
-Every libreboot ROM image contains a generic MAC address; you want to make sure
-that your ROM image contains yours, so as to not create any problems on your network
-(say, for example, that multiple family members had libreboot computers, and used
-the same ROM image to flash those computers).
-
-To do this, we will use the `ich9gen` utility, also located in **libreboot_util**.
-
-First, you need to find the current MAC address of your computer; there are
-two ways to do this:
-
-1. Read the white label on the bottom of the case (however, this will only work,
-if your motherboard has never been replaced).
-2. Run `ifconfig`; look for your ethernet device (e.g., **enpXXX**
-in Arch-based distributions, or **eth0** in Debian-based distributions),
-and look for a set of characters like this: `00:f3:f0:45:91:fe`.
-
-Next, you need to move **libreboot.rom** to the following folder; this is where
-the executable for `ich9gen` is located:
-
-    $ mv libreboot.rom ~/Downloads/libreboot_r20160907_util/ich9deblob/x86_64
-
-Once there, run the following command, making sure to use your own MAC address,
-instead of what's written below:
-
-    $ ./ich9gen --macaddress XX:XX:XX:XX:XX:XX
-
-Three new files will be created:
-
-*     **ich9fdgbe_4m.bin**: this is for GM45 laptops with the 4MB flash chip.
-*     **ich9fdgbe_8m.bin**: this is for GM45 laptops with the 8MB flash chip.
-*     **ich9fdgbe_16m.bin**: this is for GM45 laptops with the 16MB flash chip.
-
-Look for the one that corresponds to the size of your ROM image; for example,
-if your flash chip size is **8mb**, you'll want to use **ich9fdgbe_8m.bin**.
-
-Now, insert this file (called the `descriptor+gbe`) into the ROM image, using `dd`:
-
-    $ dd if=ich9fdgbe_8m.bin of=libreboot.rom bs=1 count=12k conv=notrunc
-
-Move **libreboot.rom** back to the **libreboot\_util** directory:
-
-    $ mv libreboot.rom ~/Downloads/libreboot_util
-
-You are finally ready to flash the ROM!
-
 #### Flash Updated ROM Image
 The last step of flashing the ROM requires us to change our current working directory
 to **libreboot\_util**:
