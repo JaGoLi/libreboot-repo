@@ -6,6 +6,13 @@ If we forgot to mention you here, let us know and we'll add you. (or if
 you don't want to be mentioned, let us know and we'll remove your
 entry)
 
+<div class="warning">
+This is a test warning tag put in the Markdown file. It'll be removed once
+swiftgeek catches on that I've added this here :P
+We were discussing how to add warnings in parts of libreboot documentation.
+Like for example warning people NOT to use 5V SPI flashers on 3.3v laptops!
+</div>
+
 Alyssa Rosenzweig
 -----------------
 
