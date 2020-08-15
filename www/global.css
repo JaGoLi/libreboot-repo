@@ -28,6 +28,20 @@ pre,table {
     display: block;
 }
 
+table {
+  border-collapse: collapse;
+  width:100%;
+}
+th{
+  background:#bbb;
+}
+th, td {
+  border: solid 1px #888;
+}
+tr:nth-child(even) {
+  background-color: #eee;
+}
+
 code, pre {
     background-color: #DDD;
 }
