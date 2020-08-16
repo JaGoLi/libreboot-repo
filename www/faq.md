@@ -775,6 +775,38 @@ all users. You can use:
 This will change the default inside that ROM image, and then you can
 re-flash it.
 
+How do I pad a ROM before flashing?
+--------------------------------------
+
+Required for ROMs where the ROM image is smaller than the flash chip
+(e.g. writing a 2MiB ROM to a 16MiB flash chip).
+
+Create an empty (00 bytes) file with a size the difference between
+the ROM and flash chip. The case above, for example:
+
+    $ truncate -s +14MiB pad.bin
+
+For x86 descriptorless images you need to pad from the *beginning* of the ROM:
+
+    $ cat pad.bin yourrom.rom > yourrom.rom.new
+
+For ARM and x86 with intel flash descriptor, you need to pad after the image:
+
+    $ cat yourrom.rom pad.bin > yourrom.rom.new
+
+Flash the resulting file. Note that cbfstool will not be able to
+operate on images padded this way so make sure to make all changes to
+the image, including runtime config, before padding.
+
+To remove padding, for example after reading it off the flash chip,
+simply use dd(1) to extract only the non-padded portion. Continuing with the
+examples above, in order to extract a 2MiB x86 descriptorless ROM from a
+padded 16MiB image do the following:
+
+    $ dd if=flashromread.rom of=yourrom.rom ibs=14MiB skip=1
+
+With padding removed cbfstool will be able to operate on the image as usual.
+
 Do I need to install a bootloader when installing a distribution?
 ---------------------------------------------------------------------------------------------------
 
