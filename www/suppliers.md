@@ -50,16 +50,6 @@ Merchandise:
 Home page:
 <https://minifree.org/>
 
-Phreedom 2600
----------
-
-Phreedom 2600 sells the BeagleBone Black (which can be used for flashing Libreboot)
-and the Thinkpad X200. All computers come with Parabola GNU/Linux preinstalled.
-All products meets the criteria for [Respects Your Freedom](https://fsf.org/ryf).
-
-Home page:
-<https://shop.phreedom2600.net/>
-
 Raptor Computing Systems
 ---------
 
