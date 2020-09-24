@@ -1014,7 +1014,7 @@ one of the safest protocols, precisely because USB devices have no DMA)
 
 Other links:
 
--   <http://motherboard.vice.com/read/the-nsas-undetectable-hard-drive-hack-was-first-demonstrated-a-year-ago>
+-   <https://www.vice.com/en_us/article/ypwkwk/the-nsas-undetectable-hard-drive-hack-was-first-demonstrated-a-year-ago>
 
 It is recommended that you use full disk encryption, on HDDs connected
 via USB. There are several adapters available online, that allow you to
