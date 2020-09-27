@@ -16,14 +16,14 @@ Libreboot supports the following systems in this release:
 
 -   [Gigabyte GA-G41M-ES2L motherboard](ga-g41m-es2l.md)
 -   [Intel D510MO motherboard](d510mo.md)
--   [ASUS KCMA-D8 motherboard](kcma-d8.md)
 -   [Intel D945GCLF](d945gclf.md)
 -   [Apple iMac 5,2](imac52.md)
 
 ### Servers/workstations (AMD, x86)
 
--   [ASUS KFSN4-DRE motherboard](kfsn4-dre.md)
+-   [ASUS KCMA-D8 motherboard](kcma-d8.md)
 -   [ASUS KGPE-D16 motherboard](kgpe-d16.md)
+-   [ASUS KFSN4-DRE motherboard](kfsn4-dre.md)
 
 ### Laptops (ARM)
 
