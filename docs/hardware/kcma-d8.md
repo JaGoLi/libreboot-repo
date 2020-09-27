@@ -94,6 +94,10 @@ Current issues {#issues}
     in order to install an operating system you will need a hard disk with
     a pre-installed OS or will have to plug in another HDD or CD/DVD
     reader in order to boot OS installation media.
+-   SeaBIOS lacked serial console support out-of-the-box in release 20160907
+    and as such a workaround using SGABIOS is necessary. You can find
+    instructions on how to do this on the
+    [Notabug issue tracker](https://notabug.org/libreboot/libreboot/issues/736)
 -   SAS (via PIKE 2008 module) requires non-free option ROM (and
     SeaBIOS) to boot from it (theoretically possible to replace, but you
     can put a kernel in CBFS or on SATA and use that to boot GNU, which
