@@ -245,17 +245,11 @@ In this case, the output was:
 How to backup factory.rom (change the -c option as neeed, for your flash
 chip):
 
-    # ./flashrom -p linux_spi:dev=/dev/spidev1.0,spispeed=512 -r
+    # ./flashrom -p linux_spi:dev=/dev/spidev1.0,spispeed=512 -r factory.rom
 
-factory.rom
+    # ./flashrom -p linux_spi:dev=/dev/spidev1.0,spispeed=512 -r factory1.rom
 
-    # ./flashrom -p linux_spi:dev=/dev/spidev1.0,spispeed=512 -r
-
-factory1.rom
-
-    # ./flashrom -p linux_spi:dev=/dev/spidev1.0,spispeed=512 -r
-
-factory2.rom
+    # ./flashrom -p linux_spi:dev=/dev/spidev1.0,spispeed=512 -r factory2.rom
 
 Note: the `-c` option is not required in libreboot's patched
 flashrom, because the redundant flash chip definitions in *flashchips.c*
