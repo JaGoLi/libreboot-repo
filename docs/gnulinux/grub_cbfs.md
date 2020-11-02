@@ -233,6 +233,10 @@ Now that we have explained *how* to modify the file itself, we need to explain
 how to actually make our system *use* the new GRUB configuration file to boot.
 
 ### Without Re-Flashing the ROM
+
+**Note: This will only work on startup with non-FDE setups,
+as password is required to access an encrypted drive**
+
 To change the GRUB Configuration that our system uses, without having to re-flash the ROM,
 we need to take our **grubest.cfg** file, rename it to **libreboot\_grub**;
 this is because that, by default, GRUB in Libreboot is configured to scan all partitions on
