@@ -31,8 +31,8 @@ List of models and codenames
 
 -   Asus Chromebook C201PA: speedy\_rk3288, veyron-speedy
 
--   ThinkPad X60: KS Note
--   ThinkPad X60s (slim): KS Note-2 / KS-2
+-   ThinkPad X60: KS Note (Sumo)
+-   ThinkPad X60s (slim): KS Note-2 / KS-2 (Kabuki)
 -   ThinkPad X60 Tablet: Dali (Same PCB as KS Note-2, different EC firmware)
 
 -   ThinkPad X200: Mocha-1
@@ -81,7 +81,13 @@ yet!. Currently only Calistoga and Montevina platforms are supported.
     -   ThinkPad W520: KENDO-3 WS
     -   ThinkPad T530: KENDO-4
     -   ThinkPad W530: KENDO-4 WS
-
+-   ThinkPad T-series dock codenames:
+    -   Advanced Mini Dock - Donatello
+    -   Advanced Mini Dock (lacking SuperIO) - Donatello-lite
+    -   Advanced Dock - Rodin
+    -   Dock II - Aswan
+    -   Mini Dock - Seville
+    -   Port Replicator II - Seville-lite
 
 ### Miscellaneous
 -   [Calistoga](https://ark.intel.com/products/codename/5950/Calistoga):
