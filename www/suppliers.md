@@ -22,17 +22,7 @@ Libreboot developer. RetroFreedom is the first company to achieve FSF RYF
 endorsement on a computer system, and invests money directly into Libreboot
 using profits from sales.
 
-The company re-opened on 10 November 2020, after closing in early 2020 due to
-Covid19 pandemic. Some fundamental changes were made to the operation: laptop
-options greatly simplified, with just 1 configuration per laptop, but a lot more
-extras included by default. Laptops are now pre-packed and ready to ship before
-being sold on the website, and so the service is extremely efficient (previously,
-as with most Libreboot suppliers, laptops were assembled to order, after sale). 
-
-More info about the re-launch here:
-<https://retrofreedom.com/company-relaunched/>
-
-**Ships worldwide, to all countries.**
+**Ships worldwide, to all countries. Laptops pre-packed ready to ship before sale**
 
 Laptops:
 
@@ -43,6 +33,16 @@ Laptops:
 Services:
 
 -   [Libreboot installation service](https://retrofreedom.com/product/libreboot-installation-service/)
+
+The company re-opened on 10 November 2020, after closing in early 2020 due to
+Covid19 pandemic. Some fundamental changes were made to the operation: laptop
+options greatly simplified, with just 1 configuration per laptop, but a lot more
+extras included by default. Laptops are now pre-packed and ready to ship before
+being sold on the website, and so the service is extremely efficient (previously,
+as with most Libreboot suppliers, laptops were assembled to order, after sale). 
+
+More info about the re-launch here:
+<https://retrofreedom.com/company-relaunched/>
 
 Coreboot flashing on ThinkPad X220/X230 is also available via Libreboot
 Installation Service page. The me_cleaner utility is used, which strips out
