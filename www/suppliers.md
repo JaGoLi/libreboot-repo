@@ -14,41 +14,46 @@ developer. **Ships to USA only**
 Home page:
 <https://shop.libiquity.com/>
 
-Ministry of Freedom (Minifree)
+RetroFreedom
 ---------
 
-Leah Rowe, Minifree's founder, is also Libreboot's founder and is an active
-Libreboot developer. Minifree is the first company to achieve FSF RYF
-endorsement on a computer system, and invests money directly into Libreboot.
+Leah Rowe, RetroFreedom's founder, is also Libreboot's founder and is an active
+Libreboot developer. RetroFreedom is the first company to achieve FSF RYF
+endorsement on a computer system, and invests money directly into Libreboot
+using profits from sales.
+
+The company re-opened on 10 November 2020, after closing in early 2020 due to
+Covid19 pandemic. Some fundamental changes were made to the operation: laptop
+options greatly simplified, with just 1 configuration per laptop, but a lot more
+extras included by default. Laptops are now pre-packed and ready to ship before
+being sold on the website, and so the service is extremely efficient (previously,
+as with most Libreboot suppliers, laptops were assembled to order, after sale). 
+
+More info about the re-launch here:
+<https://retrofreedom.com/company-relaunched/>
 
 **Ships worldwide, to all countries.**
 
-Routers:
-
--   [Libre WNDR3800 Router](https://minifree.org/product/minifree-wndr3800-libre-router/) (FSF RYF pending)
-
 Laptops:
 
--   [Libreboot X200 laptop](https://minifree.org/product/libreboot-x200/) (FSF RYF certified)
--   [Libreboot T400 laptop](https://minifree.org/product/libreboot-t400/) (FSF RYF certified)
--   [Libreboot X200 Tablet laptop](https://minifree.org/product/libreboot-x200-tablet/) (FSF RYF certified)
+-   [Libreboot X200 laptop](https://retrofreedom.com/product/libreboot-x200/) (FSF RYF certified)
+-   [Libreboot T400 laptop](https://retrofreedom.com/product/libreboot-t400/) (FSF RYF certified)
+-   [Libreboot X200 Tablet laptop](https://retrofreedom.com/product/libreboot-x200-tablet/) (FSF RYF certified)
 
 Services:
 
--   [Hardware and software based security enhancements for Libreboot laptops](https://minifree.org/product/security-mods/)
--   [Libreboot installation service](https://minifree.org/product/libreboot-installation-service/)
--   [Libreboot chip flashing service for ASUS KGPE-D16 and KCMA-D8](https://minifree.org/product/d8-d16-chipflash/)
+-   [Libreboot installation service](https://retrofreedom.com/product/libreboot-installation-service/)
 
-Merchandise:
-
--   [Libreboot T400 battery](https://minifree.org/product/libreboot-t400-battery/)
--   [Libreboot X200 battery](https://minifree.org/product/libreboot-x200-battery/)
--   [Libreboot X200 Tablet battery](https://minifree.org/product/libreboot-x200-tablet-battery/)
--   [Libreboot X200/X200T docking station](https://minifree.org/product/docking-station-for-libreboot-x200/)
--   [Libreboot stickers](https://minifree.org/product/libreboot-stickers/)
+Coreboot flashing on ThinkPad X220/X230 is also available via Libreboot
+Installation Service page. The me_cleaner utility is used, which strips out
+most of the code in Intel ME firmware, including networking and AMT, leaving
+only hardware initialization routines still in place (on these platforms,
+minor hw init routines that previous platforms did in x86 code are handled
+by the ME instead). It should be noted that these X220/X230 laptops are NOT
+supported by libreboot, but the code in coreboot is 100% free software.
 
 Home page:
-<https://minifree.org/>
+<https://retrofreedom.com/>
 
 Raptor Computing Systems
 ---------
