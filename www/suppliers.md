@@ -44,14 +44,6 @@ as with most Libreboot suppliers, laptops were assembled to order, after sale).
 More info about the re-launch here:
 <https://retrofreedom.com/company-relaunched/>
 
-Coreboot flashing on ThinkPad X220/X230 is also available via Libreboot
-Installation Service page. The me_cleaner utility is used, which strips out
-most of the code in Intel ME firmware, including networking and AMT, leaving
-only hardware initialization routines still in place (on these platforms,
-minor hw init routines that previous platforms did in x86 code are handled
-by the ME instead). It should be noted that these X220/X230 laptops are NOT
-supported by libreboot, but the code in coreboot is 100% free software.
-
 Home page:
 <https://retrofreedom.com/>
 
