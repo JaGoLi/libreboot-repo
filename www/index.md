@@ -8,12 +8,12 @@ mascot"){#logo}](faq.md#who-did-the-logo)
 [FAQ](faq.md)                                                               --
 [Download](download.md)                                                     --
 [Install](docs/install/)                                                    --
-[Documentation](docs/)                                                      --
+[Docs](docs/)                                                               --
 [News](news/)                                                               --
 [Chat](https://webchat.freenode.net/?channels=libreboot)                    --
 [Bugs](https://notabug.org/libreboot/libreboot/issues)                      --
-[Send patches](git.md)                                                      --
-[Buy preinstalled](suppliers.md)
+[Contribute](git.md)                                                      --
+**[Buy preinstalled](suppliers.md)**
 
 Libreboot is [freedom-respecting](https://www.gnu.org/philosophy/free-sw.html)
 *boot firmware*, initialising the hardware and booting an operating system.
