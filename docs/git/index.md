@@ -184,17 +184,6 @@ How to build the ROM images
 You don't need to do much, as there are scripts already written for you
 that can build everything automatically.
 
-You can build libreboot from source on a 32-bit (i686) or 64-bit
-(x86\_64) system. Recommended (if possible): x86\_64. ASUS KFSN4-DRE has
-64-bit CPUs. On a ThinkPad T60, you can replace the CPU (Core 2 Duo
-T5600, T7200 or T7600. T5600 recommended) for 64-bit support. On an
-X60s, you can replace the board with one that has a Core 2 Duo L7400
-(you could also use an X60 Tablet board with the same CPU). On an X60,
-you can replace the board with one that has a Core 2 Duo T5600 or T7200
-(T5600 is recommended). All MacBook2,1 laptops are 64-bit, as are all
-ThinkPad X200, X200S, X200 Tablet, R400, T400 and T500 laptops. Warning:
-MacBook1,1 laptops are all 32-bit only.
-
 First, [install the build dependencies](#build_dependencies).
 
 If you downloaded libreboot from git, refer to
