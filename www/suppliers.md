@@ -29,6 +29,7 @@ Laptops:
 -   [Libreboot X200 laptop](https://retrofreedom.com/product/libreboot-x200/) (FSF RYF certified)
 -   [Libreboot T400 laptop](https://retrofreedom.com/product/libreboot-t400/) (FSF RYF certified)
 -   [Libreboot X200 Tablet laptop](https://retrofreedom.com/product/libreboot-x200-tablet/) (FSF RYF certified)
+-   [Libreboot W500 laptop with 1920x1200 screen](https://retrofreedom.com/product/libreboot-w500/) (FSF RYF pending)
 
 Services:
 
