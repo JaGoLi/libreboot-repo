@@ -89,8 +89,14 @@ reported by contacting one of the moderators privately via IRC private message
 * Paul Kocialkowski: **paulk-X** Freenode (X is variable, for this
   person, email [paul@libreboot.org](mailto:paul@libreboot.org)
   check in the channel)
-* Swift Geek: **swiftgeek** on Freenode, email
-  [swiftgeek@libreboot.org](mailto:swiftgeek@libreboot.org)
+* <s>Swift Geek: **swiftgeek** on Freenode, email
+  [swiftgeek@libreboot.org](mailto:swiftgeek@libreboot.org)</s> - swiftgeek
+  is currently being disciplined for bad behaviour. He was being rude to people
+  on IRC and disrespectful of people's feelings when getting into arguments.
+  He is still a core member of the libreboot project, but his op power on IRC
+  has been revoked. He still has push access to libreboot.org and to the git
+  repository, and is still an active developer in the Libreboot project. 
+  **This code of conduct applies to everyone, including mods/admins!**
 
 If the complaint is for abuses on the Libreboot subreddit at
 [r/libreboot](https://www.reddit.com/r/libreboot/) then there are a separate

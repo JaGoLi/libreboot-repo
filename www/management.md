@@ -35,7 +35,13 @@ In alphabetical order:
 - Leah Rowe is a core developer (and project founder). IRC nick
   **unoccupied**, email [leah@libreboot.org](mailto:leah@libreboot.org)
 - Swift Geek is a core developer. IRC nick **swiftgeek**, email
-  [swiftgeek@libreboot.org](mailto:swiftgeek@libreboot.org)
+  [swiftgeek@libreboot.org](mailto:swiftgeek@libreboot.org) - swiftgeek
+  is currently being disciplined for bad behaviour. He was being rude to people
+  on IRC and disrespectful of people's feelings when getting into arguments.
+  He is still a core member of the libreboot project, but his op power on IRC
+  has been revoked. He still has push access to libreboot.org and to the git
+  repository, and is still an active developer in the Libreboot project. 
+  **The [code of conduct](conduct.md) applies to everyone, including mods/admins!**
 
 Generally, the people on this list have these responsibilities:
 
