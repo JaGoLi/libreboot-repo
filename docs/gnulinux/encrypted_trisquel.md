@@ -110,18 +110,18 @@ Now it's time to partition the disk; you will be shown several options; choose `
 
 13. Choose `Configure the Logical Volume Manager`. You will be asked if you want to `Keep current partition layout and configure LVM`; choose `Yes`.
 
-14. Choose `Create volume group`. You will have to enter a name for the group; use **grubcrypt**. Select the encrypted partition as the device (by pressing `Spacebar`, which will make an `*` appear between the brackets; that's how you know it's been selected). Press `Tab`, and choose `Continue`.
+14. Choose `Create volume group`. You will have to enter a name for the group; use **matrix**. Select the encrypted partition as the device (by pressing `Spacebar`, which will make an `*` appear between the brackets; that's how you know it's been selected). Press `Tab`, and choose `Continue`.
 
-15. Choose `Create logical volume`. Select the volume group you created in the previous step (i.e., **grubcrypt**), and name it **trisquel**; make the size the entire drive minus 2048 MB (for the swap space). Press `Enter`.
+15. Choose `Create logical volume`. Select the volume group you created in the previous step (i.e., **matrix**), and name it **rootvol**; make the size the entire drive minus 2048 MB (for the swap space). Press `Enter`.
 
-16. Choose `Create logical volume` again, and select **grubcrypt**. Name this one **swap**, and make the size the default value (it should be about 2048MB). Press `Enter`, and then choose `Finish`.
+16. Choose `Create logical volume` again, and select **matrix**. Name this one **swap**, and make the size the default value (it should be about 2048MB). Press `Enter`, and then choose `Finish`.
 
-17. Now you are back at the main partitioning screen. You will simply set the mount points and filesystems to use for each partition you just created. Under `LVM VG grubcrypt, LV trisquel`, select the first partition: `#1`. Change the values in this section to reflect the following; then choose `Done setting up partition`:
+17. Now you are back at the main partitioning screen. You will simply set the mount points and filesystems to use for each partition you just created. Under `LVM VG matrix, LV rootvol`, select the first partition: `#1`. Change the values in this section to reflect the following; then choose `Done setting up partition`:
 
     * use as: `ext4`
     * mount point: `/`
 
-18. Under `LVM VG grubcrypt, LV swap`, select the first partition: `#1`. Change the value of `use as` to `swap area`. Choose `Done setting up partition`.
+18. Under `LVM VG matrix, LV swap`, select the first partition: `#1`. Change the value of `use as` to `swap area`. Choose `Done setting up partition`.
 
 19. Finally, when back at the main partitioning screen, choose `Finish partitioning and write changes to disk`. It will ask you to verify that you want to do this; choose `Yes`.
 
@@ -160,9 +160,9 @@ The installer will now give you a message that the installation is complete. Cho
 At this point, you will have finished the installation. At your GRUB boot screen, press `C` to get to the command line, and enter the following commands at the `grub>` prompt:
 
     grub> cryptomount -a
-    grub> set root='lvm/grubcrypt-trisquel'
-    grub> linux /vmlinuz root=/dev/mapper/grubcrypt-trisquel \
-    >cryptdevice=/dev/mapper/grubcrypt-trisquel:root
+    grub> set root='lvm/matrix-rootvol'
+    grub> linux /vmlinuz root=/dev/mapper/matrix-rootvol \
+    >cryptdevice=/dev/mapper/matrix-rootvol:root
     grub> initrd /initrd.img
     grub> boot
 
