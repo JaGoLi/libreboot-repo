@@ -146,7 +146,7 @@ When prompted to choose a desktop environment, use the arrow keys to navigate th
 You might also want to choose some of the other package groups (or none of them, if you want a basic shell); it's up to you. Once you've chosen the option you want, press `Tab`, and then choose `Continue`.
 
 ## Install the GRUB boot loader to the master boot record
-The installer will ask you if you want to install the GRUB bootloader to the master boot record; choose `No`. You do not need to install GRUB at all, since in Libreboot, you are using the GRUB payload on the ROM to boot your system.
+The installer will ask you if you want to install the GRUB bootloader to the master boot record; choose `Yes`. While you do not need to install GRUB bootloader, since in Libreboot, you are using the GRUB payload on the ROM to boot your syste, you still need to install grub package (preferably `grub-coreboot`) and generate distro's `grub.cfg` with `grub-mkconfig`.
 
 The next window will prompt you to enter a `Device for boot loader installation`. Leave the line blank; press `Tab`, and choose `Continue`.
 
@@ -156,8 +156,8 @@ The installer will ask if your system clock is set to UTC; choose `Yes`.
 ## Finishing the Installation
 The installer will now give you a message that the installation is complete. Choose `Continue`, remove the installation media, and the system will automatically reboot.
 
-## Booting your system
-At this point, you will have finished the installation. At your GRUB boot screen, press `C` to get to the command line, and enter the following commands at the `grub>` prompt:
+## Booting your system manually
+At this point, you will have finished the installation. To boot system manually, at your GRUB boot screen, press `C` to get to the command line, and enter the following commands at the `grub>` prompt:
 
     grub> cryptomount -a
     grub> set root='lvm/matrix-rootvol'
@@ -178,7 +178,7 @@ If you didn't encrypt your home directory, then you can safely ignore this secti
 This will be needed in the future, if you ever need to recover your home directory from another system. Write it down, or (preferably) store it using a password manager (I recommend `keepass`,`keepasX`, or `keepassXC`).
 
 ## Modify grub.cfg (CBFS)
-The last step of the proccess is to modify your **grub.cfg** file (in the firmware), and flash the new configuration, [using this tutorial](grub_cbfs.md); this is so that you don't have to manually type in the commands above, every single time you want to boot your computer. You can also make your GRUB configuration much more secure, by following [this guide](grub_hardening.md).
+As the last step of the proccess you *can* modify your **grub.cfg** file (in the firmware), and flash the new configuration, [using this tutorial](grub_cbfs.md); this is so you can make your GRUB configuration much more secure, by following [this guide](grub_hardening.md). This step is entirely optional, libreboot supports FDE scheme without any changes to its grub.cfg.
 
 ## Troubleshooting
 During boot, some Thinkpads have a faulty DVD drive, which can cause the `cryptomount -a` command to fail, as well as the error `AHCI transfer timed out` (when the Thinkpad X200 is connected to an UltraBase). For both issues, the workaround was to remove the DVD drive (if using the UltraBase, then the whole device must be removed).
