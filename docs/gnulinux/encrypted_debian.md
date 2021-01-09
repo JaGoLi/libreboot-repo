@@ -5,12 +5,24 @@ title: Installing Debian or Devuan GNU+Linux with full disk encryption (includin
 This guide is written for the Debian distribution, but it should also
 work for Devuan with the net installer.
 
-Gigabyte GA-G41M-ES2L
-=====================
+If booting in legacy VGA textmode
+=================================
 
-To boot the Trisquel net installer, make sure to specify fb=false on the linux
+Text mode is when you start in a low resolution text console. In Libreboot, you
+can tell because there will be no background graphic in the GRUB menu.
+
+To boot the Debian net installer, make sure to specify fb=false on the linux
 kernel parameters in GRUB. This will boot the installer in text mode instead
-of using a framebuffer.
+of using a framebuffer. By default, the netinstaller will try to switch to a
+high resolution framebuffer. Due to lack of INT10H video BIOS services and mode
+switching support in Libreboot (for video), this will fail.
+
+Libreboot starts in either text mode or VESA framebuffer mode. When you boot a
+Linux kernel, on any supported Libreboot target, the Linux kernel video driver
+for your hardware is handling everything on its own without help from BIOS/UEFI
+but during early init (or in textmode installers like Debian netinst) it will
+not use those drivers and will instead rely on whatever your boot firmware
+provides.
 
 Moving on...
 ============
