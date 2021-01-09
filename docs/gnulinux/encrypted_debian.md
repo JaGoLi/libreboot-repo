@@ -229,6 +229,47 @@ When using libreboot version 20160907 and older it may be necessary to
 downgrade LUKSv2 to LUKSv1. See
 [debian's cryptsetup-team page to learn how to downgrade](https://cryptsetup-team.pages.debian.net/cryptsetup/encrypted-boot.html#downgrading-luks2-to-luks1).
 
+This is because Libreboot 20160907 has an old version of GRUB, which lacks
+LUKSv2 support. If you're using the Debian netinst it won't have cryptsetup in
+it. You can download Parabola GNU+Linux here:
+
+64-bit ISO: <https://redirector.parabola.nu/iso/x86_64-systemd-cli-2020.09/parabola-x86_64-systemd-cli-2020.09-netinstall.iso>
+
+32-bit ISO (X60, T60): <https://redirector.parabola.nu/iso/i686-systemd-cli-2020.09/parabola-i686-systemd-cli-2020.09-netinstall.iso>
+
+dd it to a USB drive (use `lsblk` command in GNU+Linux to know which one it is), e.g.:
+
+    sudo dd if=parabola-x86_64-systemd-cli-2020.09-netinstall.iso of=/dev/sdX bs=8M conv=notrunc; sync
+
+Now boot with the USB stick inserted, and press C to access the GRUB terminal.
+Type these commands into the GRUB terminal for the 64-bit ISO (NOTE: each command
+is one line below, and each command is separated by a blank line):
+
+    set root='usb0'
+
+    linux /parabola/boot/x86_64/vmlinuz parabolaisobasedir=parabola parabolaisolabel=PARA_202009
+
+    initrd /parabola/boot/x86_64/parabolaiso.img
+
+    boot
+
+Or for 32-bit ISO:
+
+    set root='usb0'
+
+    linux /parabola/boot/i686/vmlinuz parabolaisobasedir=parabola parabolaisolabel=PARA_202009
+
+    initrd /parabola/boot/i686/parabolaiso.img
+
+    boot
+
+When you've booted the live Parabola ISO, select language and it drops you to
+a shell. Use the `lsblk` command in that shell to figure out what is your
+encrypted partition and follow the above Debian guide to downgrade your LUKSv2
+partition to LUKSv1.
+
+After you've done that, it should boot.
+
 Troubleshooting
 ===============
 
