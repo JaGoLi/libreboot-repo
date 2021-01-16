@@ -1,5 +1,5 @@
 ---
-title: Contribute financially to the Retroboot project
+title: Contribute financially to the Libreboot project
 x-toc-enable: true
 ...
 
