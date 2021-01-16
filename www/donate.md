@@ -111,20 +111,13 @@ My own work is focused on:
 * Occasionally I provide user support on IRC, but that's mostly swiftgeek's
   thing these days.
 
-The two other developers, Andrew Robbins and Swiftgeek, also do a lot of work.
+The two other developers, Andrew Robbins and swiftgeek, also do a lot of work.
 
-Swiftgeek focuses mainly on:
+swiftgeek focuses mainly on:
 
-* Working on upstream projects such as coreboot and GRUB (e.g. bug fixes, adding
-  new features)
-* Improvements to upstream projects. For instance, swiftgeek figured out how
-  to do hardware-based gdb debugging of GRUB, where previously this was only
-  feasible for GRUB running in a *virtual machine*. He has been working on a
-  large number of improvements to GRUB, including features such as loading modules
-  from CBFS instead of memdisk.
-* Hardware research (reverse engineering) - for instance, he is researching how
-  to externally dump/flash H8S based ECs, which will greatly enhance our ability
-  to create libre EC firmware on libreboot-supported thinkpads in the future.
+* Hardware research and reverse engineering - for example,
+  documenting how particular feature of a board works,
+  figuring out repairs of common faults and reviewing code against schematics.
 * Providing user support on IRC - he excels at this, and a lot of new libreboot
   users now exist because he provided such support!
 
