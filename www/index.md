@@ -10,9 +10,10 @@ mascot"){#logo}](faq.md#who-did-the-logo)
 [Install](docs/install/)                                                    --
 [Docs](docs/)                                                               --
 [News](news/)                                                               --
-[Chat](https://webchat.freenode.net/?channels=libreboot)                    --
+[Support](https://webchat.freenode.net/?channels=libreboot)                    --
 [Bugs](https://notabug.org/libreboot/libreboot/issues)                      --
-[Contribute](git.md)                                                      --
+[Send patches](git.md)                                                      --
+**[Donate](donate.md)**                                                      --
 **[Buy preinstalled](suppliers.md)**
 
 Libreboot is [freedom-respecting](https://www.gnu.org/philosophy/free-sw.html)
