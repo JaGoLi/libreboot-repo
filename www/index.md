@@ -2,9 +2,6 @@
 title: Libreboot
 ...
 
-[![Libreboot logo](logo/logo.svg "Canteloupe, the libreboot
-mascot"){#logo}](faq.md#who-did-the-logo)
-
 [FAQ](faq.md)                                                               --
 [Download](download.md)                                                     --
 [Install](docs/install/)                                                    --
@@ -21,6 +18,9 @@ Libreboot is [freedom-respecting](https://www.gnu.org/philosophy/free-sw.html)
 This replaces the proprietary BIOS/UEFI boot firmware found in computers.
 Libreboot is compatible with [certain computers that have
 been ported to](docs/hardware/) on ARM and x86.
+
+[![Libreboot logo](logo/logo.svg "Canteloupe, the libreboot
+mascot"){#logo}](faq.md#who-did-the-logo)
 
 *Boot firmware* is the low-level software in a computer, which executes the
 moment that computer is turned on. It brings all of the components (CPU,
