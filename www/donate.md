@@ -19,8 +19,8 @@ extensively, for hardware initialization and neither project would be possible
 without coreboot!
 
 I, Leah Rowe, am founder of both Libreboot and Retroboot. I am also the lead
-developer of both projects. I handle the money and I share it with other core
-members of both the Libreboot and Retroboot projects.
+developer of both projects. I use whatever money is received to fund development;
+this also includes paying the other developers for their time on the project.
 
 Send money via Patreon
 ======================
@@ -53,43 +53,9 @@ assist such development on both Libreboot and Retroboot, both of which provide
 coreboot-based hardware initialization on supported machines.
 
 The word *donation* and *donate* may be used here, but legally speaking it is
-not a donation. You are simply sending money to Leah Rowe. No formal legal
-entity exists for Libreboot or Retroboot (such as a non-profit organisation)
-but I will simply pay whatever taxes are due on money I receive (I have an
-accountant that manages my money for me). No goods/services are promised in
-exchange for the money received, and no refunds will be given.
-
-After tax, I (Leah Rowe) will use whatever money I receive for:
-
-* My own work on Libreboot and Retroboot development
-* Costs related to the above (need to pay rent, food etc and sometimes I need
-  to pay for equipment or machines to test ROM images on)
-* I will share whatever money I receive with `swiftgeek` and `and_who` who are
-  the two other core developers of Libreboot, whom I work with every day. Those
-  two also deserve to be paid for their hard work!
-
-I run a company (<https://retrofreedom.com/>) selling Libreboot and Retroboot
-machines and providing a send-in service for installation, but I try to
-run it part-time and focus on development. I only do business when I need to
-(so as to pay bills and such, and provide extra funding for Libreboot/Retroboot).
-
-Libreboot hasn't had a stable release since 2016. Since that date, work has been
-done on a new build system (the *Paper build system*) which adds many new
-features but is not yet complete. I, Leah Rowe, decided to fork Libreboot's old
-build system and I've made huge improvements to *that* in order to create
-Retroboot. I will soon create Retroboot-libre, based on Retroboot, which will be
-very similar to Libreboot. I've been authorized (by Andrew and Swiftgeek) to do
-a new Libreboot release
-based on this work, as a stop-gap to give users updated coreboot/GRUB versions
-and so on, and a few new machines added to the build system that can now be
-supported in Libreboot; this will *not* replace the work done on the Paper
-build system. Retroboot's build system is named `rbmk` (short for Retroboot
-Make) based on `lbmk` (Libreboot Make) and is much easier to work on than the
-Paper build system, enabling quicker releases schedules.
-
-ETA for lbmk-based Libreboot release: late March 2021 to mid April 2021. More
-boards will be added, and existing ones will be updated to use the latest
-versions of coreboot, GRUB and whatever other software is required.
+not a donation. You are simply sending money to Leah Rowe. I use whatever money
+is received to pay for development costs, and I share it with the other developers
+in the Libreboot project, to pay them for their time working on Libreboot.
 
 My own work is focused on:
 
@@ -133,4 +99,21 @@ Andrew focuses mainly on:
   boot sector on a hard drive. i386-coreboot grub can't do that, and this is
   the configuration used in Libreboot and Retroboot at present).
 
+Libreboot hasn't had a stable release since 2016. Since that date, work has been
+done on a new build system (the *Paper build system*) which adds many new
+features but is not yet complete. I, Leah Rowe, decided to fork Libreboot's old
+build system and I've made huge improvements to *that* in order to create
+Retroboot. I will soon create Retroboot-libre, based on Retroboot, which will be
+very similar to Libreboot. I've been authorized (by Andrew and Swiftgeek) to do
+a new Libreboot release
+based on this work, as a stop-gap to give users updated coreboot/GRUB versions
+and so on, and a few new machines added to the build system that can now be
+supported in Libreboot; this will *not* replace the work done on the Paper
+build system. Retroboot's build system is named `rbmk` (short for Retroboot
+Make) based on `lbmk` (Libreboot Make) and is much easier to work on than the
+Paper build system, enabling quicker releases schedules.
+
+ETA for lbmk-based Libreboot release: late March 2021 to mid April 2021. More
+boards will be added, and existing ones will be updated to use the latest
+versions of coreboot, GRUB and whatever other software is required.
 
