@@ -38,7 +38,7 @@ Flashing via hardware methods, on system:
 -----------------------------------------
 
 -   [Gigabyte GA-G41-ES2L](ga-g41m-es2l.md)
--   [Intel D510MO](d510mo.md)
+-   [Intel D510MO and D410PT boards](d510mo.md)
 -   [Intel D945GCLF](d945gclf.md)
 -   [ASUS KGPE-D16](kgpe-d16.md)
 -   [ASUS KCMA-D8](kcma-d8.md)
