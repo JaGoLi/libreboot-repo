@@ -240,6 +240,9 @@ Tested LCD panels: (working)
 -   BOE-Hydis HV150UX1-100 (15.1" 1600x1200) (P/N 42T0078 FRU 42T0079 or P/N
     41W1338 recommended for the inverter board)
 -   Samsung LTN141XA-L01 (14.1" 1024x768)
+-   Samsung LTN154X3-L0A (15.4" 1280x800)
+-   Samsung LTN154AT07-N01 (15.4" 1280x800)
+-   LG-Philips LP154W01-TLAC (15.4" 1280x800)
 
 Tested LCD panels: *not working yet (incompatible; see
 [Issue \#677](https://notabug.org/libreboot/libreboot/issues/677))*
@@ -248,7 +251,6 @@ Tested LCD panels: *not working yet (incompatible; see
 -   Samsung LTN150XG (15.1" 1024x768)
 -   LG-Philips LP150E06-A5K4 (15.1" 1400x1050) (also, not an official
     T60 screen)
--   Samsung LTN154X3-L0A (15.4" 1280x800)
 -   IDtech IAQX10N (15.1" 2048x1536) (no display in GRUB, display in
     GNU+Linux is temperamental) (P/N 42T0078 FRU 42T0079 or P/N 41W1338
     recommended for the inverter board)
