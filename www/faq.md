@@ -17,7 +17,7 @@ Do not use CH341A!
 
 NOR flashes on all current osboot and libreboot systems run on 3.3v logic.
 The ch341a has SPI flashing capabilities and it has 3.3v by default for the
-VCC line but data lies (e.g. MISO/MOSI) are 5v. This can very easily damage
+VCC line but data lines (e.g. MISO/MOSI) are 5v. This can very easily damage
 your SPI flash; it may still work afterwards, and you can use your machine,
 but the reliability of it is now tainted.
 
