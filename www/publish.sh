@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 #
+# Copyright (C) 2017,2021 Leah Rowe <info@minifree.org>
 # Copyright (C) 2017 Alyssa Rosenzweig <alyssa@rosenzweig.io>
-# Copyright (C) 2017 Leah Rowe <info@minifree.org>
 # Copyright (C) 2017 Michael Reed <michael@michaelreed.io>
 #
 # This program is free software: you can redistribute it and/or modify
