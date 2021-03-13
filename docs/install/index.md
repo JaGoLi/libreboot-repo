@@ -33,6 +33,7 @@ Setting up programmers, for external SPI flashing
 
 -   [BeagleBone Black Setup](bbb_setup.md)
 -   [Raspberry Pi Setup](rpi_setup.md)
+-   [DO NOT USE CH341A](ch341a_setup.md)
 
 Flashing via hardware methods, on system:
 -----------------------------------------
