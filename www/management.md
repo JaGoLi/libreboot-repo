@@ -40,7 +40,6 @@ Generally, the people on this list have these responsibilities:
 - Voting rights on all major decisions, with community input.
 - System administration (where necessary) for Libreboot's infrastructure.
 - Moderation of the IRC channel, mailing lists and other discussion mediums.
-- Comply with the [Guidelines for Good Conduct](conduct.md)
 
 All members are granted SSH access, with varying levels of access depending on
 need. At the very least, all members are able to update the website when new
