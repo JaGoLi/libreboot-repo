@@ -3,13 +3,8 @@
 % 25 Apr 2017
 
 One month ago, the [Open Letter to the Free Software Community](/news/unity.md)
-was published, alluding to the new Libreboot leadership. Today, the ideals
-expressed there have been formalised into an official project policy. In the
-new [General Management Guidelines](/management.md), the ins-and-outs of our
-democratic system is codified, including the formal team list. Hint, hint: the
-structure isn't "I, Alyssa Rosenzweig, decide everything and Thou shall bow
-down to me"! There are four core team members, and we welcome community
-feedback for major decisions.
+was published, seeking to make amends for past actions by Libreboot maintainer
+Leah Rowe.
 
 There was an underlying tension in the letter: should Libreboot rejoin GNU? On
 purely political and technical levels, the answer is a resounding "yes". We
