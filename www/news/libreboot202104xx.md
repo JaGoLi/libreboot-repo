@@ -104,7 +104,7 @@ in the osboot build system compared to Libreboot 20160907:
   payload, SeaBIOS is an option in the boot menu.
 * The build system is *much* easier to use when adding new board configs
 * Each `board.cfg` for each board defines what payloads it is to use, what
-  architecture, etc. Coreboot trees are now handled on a director basis,
+  architecture, etc. Coreboot trees are now handled on a directory basis,
   instead of creating multiple branches in a newly initialized Git repository;
   this is less efficient on disk space, but it is simpler to maintain, so now
   the priority is to minimize how ever many coreboot revisions are used.
