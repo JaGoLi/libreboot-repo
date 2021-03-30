@@ -21,17 +21,6 @@ fundamental issues. I have revoked all of their access to project
 infrastructure; Libreboot is now lead by me. I have a completely different idea
 for how to run the project and what a *coreboot distro* should be.
 
-I made an agreement with the other developers: advanced features implemented
-in that rewritten build system will be implemented in *my* build system.
-I will be working with swiftgeek who, working with Andrew Robbins, was largely
-responsible for overseeing the re-write. That rewritten build system, called
-Paper (old one was called lbmk, short for libreboot-make), has many advanced
-features intended to increase the configurability and provide features similar
-to what you would get with proprietary firmware development ecosystems. These
-will be implemented in lbmk instead. `lbmk` is the build system in Libreboot
-20160907, the last stable release of Libreboot. I have picked up where I left
-off in developing *lbmk*.
-
 I, Leah Rowe, stepped down from Libreboot development in 2017. Since late 2020,
 I've been actively developing Libreboot again. I have been working on another
 project, forked via Libreboot 20160907 build system `lbmk` but on documentation
