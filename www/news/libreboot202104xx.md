@@ -149,7 +149,7 @@ so that people are less likely to criticize her. She acts like a total fascist,
 going around the internet looking for people that disagree with her political
 views; she then attempts to *cancel* those people. See: cancel culture.
 
-Coraline: I am transgender, and you suck. In fact, you're a monster. You do not
+Coraline: I am transgender, and I'm deeply saddened by your views. You do not
 represent us, and I reject your ideas entirely. Your so-called *Ethical Source*
 movement pushes non-free licenses; specifically, these licenses, so-called
 Ethical licenses, place huge restrictions on the usage of the software. If a
@@ -162,6 +162,6 @@ libreboot.org. I do not wish for *Libreboot* to be associated with her. Every
 time someone reads a copy of the Contributor Covenant, Coraline's influence to
 distribute non-free software licenses becomes stronger.
 
-I, Leah Rowe, oppose non-free software and I therefore oppose Coraline Ada
-Ehmke. Libreboot will not be implementing another code of conduct. I initially
-was going to, but there is no need.
+I, Leah Rowe, oppose non-free software and I *reject* Coraline Ada's ideology.
+Libreboot will not be implementing another code of conduct. I initially was
+going to, but there is no need.
