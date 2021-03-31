@@ -41,6 +41,7 @@ push
 tocheck*
 *.html
 !www/template.html
+!www/template.rms.html
 !www/template.homepage.html
 /www/news/index.md
 /www/feed.xml

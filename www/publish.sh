@@ -31,7 +31,11 @@ if [[ $FILE == "index" || $FILE == "./index" ]]; then
         TEMPLATE="template.homepage.html"
         OPTS="--css /headercenter.css"
 else
-        TEMPLATE="template.html"
+	if [[ $FILE == "news/rms" ]] || [[ $FILE == "./news/rms" ]]; then
+		TEMPLATE="template.rms.html"
+	else
+		TEMPLATE="template.html"
+	fi
         if [[ $FILE == *suppliers ]]
         then
             RETURN=""
