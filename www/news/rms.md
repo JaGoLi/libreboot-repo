@@ -69,11 +69,11 @@ Our opponents wish to destroy Free Software
 
 Our opponent's true target is *not* Richard Stallman; their real aim is to
 destroy the FSF by thoroughly infiltrating it (like they already have with
-organisations like the OSI and Linux Foundation). These people even started an
-online petition calling for RMS's forceful removal and for the entire board of
-directors at the FSF to resign from their posts. This is clearly an attempt
-at a coup to overthrow the FSF! Out of fear, many known Free Software projects
-joined in on the anti-RMS witch hunt because they did not want to
+organisations like the OSI, the Linux Foundation or Mozilla). These people even
+started an online petition calling for RMS's forceful removal and for the entire 
+board of directors at the FSF to resign from their posts. This is clearly an 
+attempt at a coup to overthrow the FSF! Out of fear, many known Free Software
+projects joined in on the anti-RMS witch hunt because they did not want to
 be *cancelled* either. **The list that attacks Richard has Microsoft, Google,
 OSI, Linux Foundation, Gnome Foundation and Ethical Source people on it! These
 people oppose Free Software ideologically (even if some of them do produce free
