@@ -99,8 +99,8 @@ but our petition is rising in popularity much faster while the anti-RMS
 petition has stalled. People see that it's OK to support RMS, because it is.
 RMS is innocent of wrongdoing!**
 
-Richard Stallman is my hero
-===========================
+Richard Stallman is our hero
+============================
 
 I strongly believe in
 [free software ideology](https://www.gnu.org/philosophy/free-sw.html). I am the
