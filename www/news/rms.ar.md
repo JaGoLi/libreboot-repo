@@ -2,11 +2,7 @@
 % لِيَه رُوي (Leah Rowe)
 % 31 آذار 2021
 
-أنا أدعم حرّيّة التّعبير. **مطلوب ترجمَات لهذهِ المقالة. أريدُ ترجمتها إلى أكبر
-عددٍ ممكنٍ من اللّغات. حمّل النّصّ كماركداون من هنا: [rms.markdown](rms.markdown)،
-ترجمها إلى لغتك، ثمّ أرسل الملف المترجم إلى <leah@libreboot.org>**
-
-**This translation is incomplete. Please refer to the English article, for reference when completing this translation.**
+**[Back to original English version](rms.md) - Arabic translation is incomplete**
 
 قبل سنتين، اتُّهِمَ *المجرمُ الفكريُّ* المعروف، ريتشارد ستالمان، باطلاً بالدّفاع عن
 *الاغتصاب*، في حملةِ تشويهِ سمعةٍ إعلاميّةٍ أورويليّة، منسّقةٍ من قبلِ وسائلِ الإعلامِ
@@ -36,3 +32,5 @@
 حيث لا يُكتَمُ صوته بسبب معتقداته و آرائِه)، قم بتوقيع اسمكَ على العريضةِ أدناه:**
 
 **<https://rms-support-letter.github.io/index-ar.html>**
+
+

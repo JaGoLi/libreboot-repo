@@ -2,11 +2,6 @@
 % Leah Rowe
 % 31 March 2021
 
-Ik sta voor vrijheid van meningsuiting. **Vertalingen gezocht. Ik wil dit nieuwsartikel 
-beschikbaar hebben in zoveel talen als mogelijk. Download het Markdown bestand hier: 
-[rms.markdown](rms.markdown) en vertaal het in je eigen taal. Verzend het vertaalde 
-bestand naar <leah@libreboot.org>**
-
 Twee jaar geleden was de beruchte *omstreden* Richard M. Stallman vals beschuldigd van 
 *verkrachting* in een Orwelliaanse lastercampange, opgezet door de mainstream media in 
 opdracht van niet-vrije software leveranciers.  Na 36 jaar vechten voor *jouw* digitale

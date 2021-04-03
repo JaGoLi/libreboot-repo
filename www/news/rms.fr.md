@@ -2,12 +2,6 @@
 % Leah Rowe
 % 31 mars 2021
 
-Je soutiens la liberté d'expression. **Traductions recherchées pour cet
-article. Je souhaite que cet article soit disponible dans autant de langues que
-possible. Téléchargez le Markdown ici: [rms.markdown](rms.markdown) puis
-traduisez-le dans votre langue. Envoyez-moi la traduction à
-<leah@libreboot.org>**
-
 Il y a 2 ans, le *mal pensant* Richard M Stallman fut accusé à tort de défendre
 *le viol* lors d'une campagne de dénigrement Orwellienne orchestrée par la
 presse traditionelle au dépends des fournisseurs de logiciels libres. 36 années

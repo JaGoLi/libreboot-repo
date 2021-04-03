@@ -2,11 +2,6 @@
 % Leah Rowe
 % 31 marzo 2021
 
-Credo nella libertà di espressione. **Vorrei che questo articolo fosse
-disponibile in più lingue possibile. Scarica qui il markdown
-[rms.markdowm](rms.markdown) e poi traducilo. Manda
-il file tradotto a <leah@libreboot.org>**
-
 Due anni fa, il famigerato *psicocriminale* Richard M. Stallamn è stato
 falsamente accusato di difendere *gli stupratori*. In una campagna di
 stampo Orwelliano, orchestrata dai media tradizionali e per volere dei

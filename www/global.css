@@ -81,3 +81,13 @@ h1, h2, h3, .h:hover a {
 .h a {
     display: none;
 }
+
+h1.title {
+    display: block;
+    margin: 0;
+}
+
+p.author, p.date {
+	clear: left;
+	display: inline;
+}

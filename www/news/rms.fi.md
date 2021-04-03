@@ -2,11 +2,6 @@
 % Leah Rowe
 % 31. maaliskuuta 2021
 
-Tuen sananvapautta. **Tälle artikkelille kaivataan käännöksiä. Haluan
-tämän artikkelin saataville niin monella kielellä kuin mahdollista.
-Lataa Markdown-tiedosto täältä: [rms.markdown](rms.markdown) ja sitten käännä
-teksti omalle kielellesi. Lähetä käännös osoitteeseen <leah@libreboot.org>**
-
 Kaksi vuotta sitten, tunnettu *ajatusrikollinen* Richard M. Stallman sai epätosia syytöksiä,
 joiden mukaan hän olisi puolustanut *raiskauksia*, Orwellilaisessa lokakampanjassa,
 jonka valtamedia järjesti omisteisten ohjelmistomyyjien käskystä. 
