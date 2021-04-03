@@ -40,6 +40,9 @@ if [[ $FILE == "index" || $FILE == "./index" ]]; then
 else
 	if [[ $FILE == "news/rms" ]] || [[ $FILE == "./news/rms" ]]; then
 		TEMPLATE="template.rms.html"
+		if [ "${LANG}" = "ar" ]; then
+			TEMPLATE="template.rms.ar.html"
+		fi
 	else
 		TEMPLATE="template.html"
 	fi
