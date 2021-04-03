@@ -4,5 +4,5 @@
 [Template](/license.md)                     --
 [Authors](/contrib.md)                      --
 [Peers Community](https://peers.community/) --
-[Donate](/donate.md)
+[Donate](/donate.md)                        --
 [Buy preinstalled](/suppliers.md)
