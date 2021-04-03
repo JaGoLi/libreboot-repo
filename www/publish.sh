@@ -73,6 +73,9 @@ sed -i -e 's/\.md\(#[a-zA-Z0-9_-]*\)\?\([])]*\)/.html\1\2/g' "$TMPFILE"
 
 # work around issue #2872
 TOC=$(grep -q "^x-toc-enable: true$" "$TMPFILE" && printf '%s\n' "--toc --toc-depth=2") || TOC=""
+if [ "${TEMPLATE}" = "template.rms.html" ]; then
+	TOC=$(printf '%s\n' "--toc --toc-depth=2")
+fi
 
 # work around heterogenous pandoc versions
 SMART=$(pandoc -v | grep -q '2\.0' || printf '%s\n' "-f markdown+smart -t html") || SMART=""
