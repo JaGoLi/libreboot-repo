@@ -40,9 +40,6 @@ if [[ $FILE == "index" || $FILE == "./index" ]]; then
 else
 	if [[ $FILE == "news/rms" ]] || [[ $FILE == "./news/rms" ]]; then
 		TEMPLATE="template.rms.html"
-		if [ "${LANG}" = "ar" ]; then
-			TEMPLATE="template.rms.ar.html"
-		fi
 	else
 		TEMPLATE="template.html"
 	fi
@@ -92,6 +89,10 @@ pandoc -V lang=${LANG} $TOC $SMART "$TMPFILE" -s --css /global.css $OPTS \
 
 # generate section title anchors as [link]
 sed -i -e 's_^<h\([123]\) id="\(.*\)">\(.*\)</h\1>_<div class="h"><h\1 id="\2">\3</h\1><a aria-hidden="true" href="#\2">[link]</a></div>_' "$FILE.html"
+
+if [ "${LANG}" = "ar" ]; then
+	sed -i -e 's/html\ lang/html dir=\"rtl\"\ lang/' "$FILE.html"
+fi
 
 # clean up temporary file
 rm -f "$TMPFILE"
