@@ -7,7 +7,7 @@ Introduction
 
 Il y a 2 ans, le *mal pensant* Richard M Stallman fut accusé à tort de défendre
 *le viol* lors d'une campagne de dénigrement Orwellienne orchestrée par la
-presse traditionelle au dépends des fournisseurs de logiciels libres. 36 années
+presse traditionelle aux dépends des fournisseurs de logiciels libres. 36 années
 passées à lutter pour *vos* libertés numériques, passées à la trappe. Elle
 était si agressive qu'il démissiona de son poste de président de la Free
 Software Foundation. La FSF ne fit rien pour le protéger ou le défendre.
