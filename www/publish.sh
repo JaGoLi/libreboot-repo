@@ -30,6 +30,8 @@ OPTS="-T Libreboot"
 LANG="${FILE##*.}"
 if [ "${LANG}" = "${FILE}" ]; then
 	LANG="en"
+else
+	FILE="${FILE%.*}"
 fi
 
 if [[ $FILE == "index" || $FILE == "./index" ]]; then
@@ -55,6 +57,10 @@ else
             RETURN=""
             OPTS="-T Libreboot"
         fi
+fi
+
+if [ "${LANG}" != "en" ]; then
+	FILE="${FILE}.${LANG}"
 fi
 
 if [[ $FILE != "./docs/fdl-1.3" && $FILE != "docs/fdl-1.3" &&
