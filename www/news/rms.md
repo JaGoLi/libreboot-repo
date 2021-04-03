@@ -289,7 +289,7 @@ Our problem, in defending Richard Stallman, is that opponents of the Free
 Software movement have learned to co-opt our language. They talk the talk and
 they wear the colours, but make no mistake: their actions and their intentions
 do not reflect the ideology they claim to represent! There *are* genuinely some
-Free Software activists and organanisations on that list, who have been misled
+Free Software activists and organisations on that list, who have been misled
 or have some other reason to oppose RMS; my focus will not be on those people,
 but hopefully some of those people and organisations will change their mind if
 they read what I have to say!
