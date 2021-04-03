@@ -27,6 +27,11 @@ cat "$1" > "$TMPFILE"
 
 OPTS="-T Libreboot"
 
+LANG="${FILE##*.}"
+if [ "${LANG}" = "${FILE}" ]; then
+	LANG="en"
+fi
+
 if [[ $FILE == "index" || $FILE == "./index" ]]; then
         TEMPLATE="template.homepage.html"
         OPTS="--css /headercenter.css"
@@ -70,7 +75,7 @@ SMART=$(pandoc -v | grep -q '2\.0' || printf '%s\n' "-f markdown+smart -t html")
 #
 # $OPTS must not be quoted, otherwise pandoc interprets '--css /headercenter.css'
 # as one argument, when it is actually two.
-pandoc $TOC $SMART "$TMPFILE" -s --css /global.css $OPTS \
+pandoc -V lang=${LANG} $TOC $SMART "$TMPFILE" -s --css /global.css $OPTS \
         --template ${TEMPLATE} --metadata return="$RETURN" > "$FILE.html"
 
 # generate section title anchors as [link]
