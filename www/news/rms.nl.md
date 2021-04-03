@@ -2,6 +2,9 @@
 % Leah Rowe
 % 31 March 2021
 
+Invoering
+=========
+
 Twee jaar geleden was de beruchte *omstreden* Richard M. Stallman vals beschuldigd van 
 *verkrachting* in een Orwelliaanse lastercampange, opgezet door de mainstream media in 
 opdracht van niet-vrije software leveranciers.  Na 36 jaar vechten voor *jouw* digitale

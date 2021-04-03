@@ -2,6 +2,9 @@
 % Leah Rowe
 % 31 March 2021
 
+Introduccion
+============
+
 Hace dos anos, Richard M. Stallman fue falsamente acusado de violacion
 en una campana orwelliana. Orquestada por los medios principales y los
 principales fabricantes de software privativo. 36 anos luchando por

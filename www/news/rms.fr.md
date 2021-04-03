@@ -2,6 +2,9 @@
 % Leah Rowe
 % 31 mars 2021
 
+Introduction
+============
+
 Il y a 2 ans, le *mal pensant* Richard M Stallman fut accusé à tort de défendre
 *le viol* lors d'une campagne de dénigrement Orwellienne orchestrée par la
 presse traditionelle au dépends des fournisseurs de logiciels libres. 36 années

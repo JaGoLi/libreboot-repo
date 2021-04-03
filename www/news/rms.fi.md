@@ -2,6 +2,9 @@
 % Leah Rowe
 % 31. maaliskuuta 2021
 
+Johdanto
+========
+
 Kaksi vuotta sitten, tunnettu *ajatusrikollinen* Richard M. Stallman sai epätosia syytöksiä,
 joiden mukaan hän olisi puolustanut *raiskauksia*, Orwellilaisessa lokakampanjassa,
 jonka valtamedia järjesti omisteisten ohjelmistomyyjien käskystä. 
