@@ -2,8 +2,8 @@
 % Leah Rowe
 % 31 March 2021
 
-Freedom of speech
-=================
+Introduction
+============
 
 2 years ago, known *Thought Criminal* Richard M Stallman was falsely accused of
 defending *rape* in an Orwellian smear campaign, orchestrated by mainstream
