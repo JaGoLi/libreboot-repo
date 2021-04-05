@@ -356,7 +356,7 @@ They say a picture speaks a thousand words:
 ![](https://web.archive.org/web/20210318230618if_/http://techrights.org/wp-content/uploads/2020/01/osi-microsoft-photo-op.jpg)
 
 From left to right, their names (all prominent OSI leaders/influencers), where
-left is *your* left and *their* right (for the people in the photos) are:
+left is *your* left and *their* right (for the people in the photo) are:
 
 Back row: Faidon Liambotis, Chris Lamb, Simon Phipps, Allison Randal, Molly de Blanc, Patrick Masson
 
