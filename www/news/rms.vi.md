@@ -1,6 +1,6 @@
 % Defend Richard Stallman!
-Leah Rowe
-31 March 2021
+% Leah Rowe
+% 31 March 2021
 
 Lời mở đầu
 ==========
