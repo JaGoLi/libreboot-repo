@@ -5,7 +5,7 @@
 Introdução
 ==========
 
-2 anos atrás, *Criminoso de pensamento* Ruchard M Stallman foi falsamente 
+2 anos atrás, *Criminoso de pensamento* Richard M Stallman foi falsamente 
 acusado de defender *estupro* em uma campanha de difamação orwelliana, 
 orquestrada pela mídia mainstream a pedido de fornecedores de software 
 proprietário. 36 anos lutando pelo *sua* liberdade digital, cancelado.
