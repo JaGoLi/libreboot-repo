@@ -1,4 +1,4 @@
-% To the FSF: Thank you for defending Richard Stallman! You did the right thing.
+% To the FSF: Thank you for defending Richard Stallman! Ignore the haters. You did the right thing!
 % Leah Rowe
 % 12 April 2021
 
