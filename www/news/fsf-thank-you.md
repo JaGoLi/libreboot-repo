@@ -1,4 +1,4 @@
-% Thank you FSF for defending Richard Stallman
+% To the FSF: Thank you for defending Richard Stallman!
 % Leah Rowe
 % 12 April 2021
 
