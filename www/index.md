@@ -9,7 +9,7 @@ title: Libreboot
 [News](news/)                                                               --
 [Bugs](https://notabug.org/libreboot/libreboot/issues)                      --
 [Send patches](git.md)                                                      --
-**[Contact](contact.md)**
+**[Contact](contact.md)**						--
 **[Donate](donate.md)**                                                      --
 **[Buy preinstalled](suppliers.md)**
 
