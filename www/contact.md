@@ -1,5 +1,5 @@
 ---
-title: Information about sending patches for review
+title: Contact the Libreboot project
 x-toc-enable: true
 ...
 
