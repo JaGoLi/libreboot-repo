@@ -108,8 +108,6 @@ if using HTTPS.
 
 <http://mirror.helium.in-berlin.de/libreboot/> (in-berlin.de, Germany)
 
-<http://mirror.cyberbits.eu/libreboot/> (cyberbits.eu, France)
-
 FTP mirrors {#ftp}
 -----------
 
