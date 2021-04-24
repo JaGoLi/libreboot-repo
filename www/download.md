@@ -43,6 +43,8 @@ These mirrors are recommended, since they use TLS (https://) encryption.
 <https://www.mirrorservice.org/sites/libreboot.org/release/> (University
 of Kent, UK)
 
+<https://mirrors.mit.edu/libreboot/> (MIT university, USA)
+
 <https://mirror.math.princeton.edu/pub/libreboot/> (Princeton
 university, USA)
 
@@ -101,8 +103,6 @@ unencrypted. Your traffic could be subject to interference by
 adversaries. Make especially sure to check the GPG signatures, assuming
 that you have the right key. Of course, you should do this anyway, even
 if using HTTPS.
-
-<http://mirrors.mit.edu/libreboot/> (MIT university, USA)
 
 <http://mirror.linux.ro/libreboot/> (linux.ro, Romania)
 
